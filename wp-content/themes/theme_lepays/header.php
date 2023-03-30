@@ -17,17 +17,19 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark row">
 
                 <div class="container navbar-brand">
+                    <!-- Image logo -->
+                    <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo">
+                    </a>
+
                     <?php wp_nav_menu
                     ( 
-
                         array(
                             'theme_location' => 'top-menu',
                             'menu_class' => 'top-bar navbar-nav mr-auto'
                         )
+                    ); ?>
 
-                    ); 
-                    ?>
-                    
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
