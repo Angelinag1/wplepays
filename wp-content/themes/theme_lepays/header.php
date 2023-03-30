@@ -16,10 +16,10 @@
             <!-- BARRE DE MENU -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark row">
 
-                <div class="container navbar-brand">
+                <div id="navbar-content" class="container navbar-brand">
                     <!-- Image logo -->
                     <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo">
+                        <p>Le pays</p>
                     </a>
 
                     <?php wp_nav_menu
@@ -31,7 +31,7 @@
                     ); ?>
 
                 </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- BARRE DE RECHERCHE -->
