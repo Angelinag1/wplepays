@@ -2,11 +2,10 @@
 Theme Name: Theme Le Pays
 Author: Angélina Garaebiti
 */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 body{
     background-color: aliceblue;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 header {
