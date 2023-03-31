@@ -46,7 +46,7 @@
             $query = new WP_Query($args);
             while ($query->have_posts()) : $query->the_post();
                 ?>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3">
                 <div class="card">
                     <?php if (has_post_thumbnail()) : ?>
                     <img src="<?php the_post_thumbnail_url('medium'); ?>" class="card-img-top" alt="<?php the_title_attribute(); ?>">
